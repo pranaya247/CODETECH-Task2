@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Environment and Real-Time Chat Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #ccc;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3e8e41;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card-header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .chat {
+            margin-bottom: 20px;
+        }
+
+        .chat-bot {
+            background-color: #ccc;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .user {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .input-chat {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+        }
+
+        .sending-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#chat">Chat</a></li>
+        </ul>
+    </nav>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2>Courses</h2>
+        <ul>
+            <li>
+                <h3>Course 1: Introduction to HTML/CSS</h3>
+                <p>Description: Learn the basics of HTML and CSS</p>
+                <button>Enroll</button>
+            </li>
+            <li>
+                <h3>Course 2: JavaScript Fundamentals</h3>
+                <p>Description: Learn the basics of JavaScript</p>
+                <button>Enroll</button>
+            </li>
+            <!-- Add more courses here -->
+        </ul>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard">
+        <h2>Dashboard</h2>
+        <ul>
+            <li>
+                <h3>Course 1: Introduction to HTML/CSS</h3>
+                <p>Progress: 20%</p>
+                <button>Continue</button>
+            </li>
+            <li>
+                <h3>Course 2: JavaScript Fundamentals</h3>
+                <p>Progress: 50%</p>
+                <button>Continue</button>
+            </li>
+            <!-- Add more courses here -->
+        </ul>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <h2>Profile</h2>
+        <p>Name: John Doe</p>
+        <p>Email: johndoe@example.com</p>
+        <p>Bio:
