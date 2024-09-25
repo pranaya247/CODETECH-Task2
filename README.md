@@ -14,7 +14,10 @@ Mentor: Neela Sonthosh Kumar
 Overview of Project Project: 
 ONLINE LEARNING PLATFORM
 
-This HTML and CSS code creates a basic online learning platform, designed to provide an engaging and interactive learning experience for students. The platform features a clean and modern design, with a focus on usability and accessibility.
+This HTML and CSS code creates a basic online learning platform, designed to provide an engaging and interactive learning experience for students. The platform features a clean and modern design, with a focus on usability and accessibility
+
+![Screenshot (200)](https://github.com/user-attachments/assets/6201826f-1f39-4aea-b3d2-e9c50e582c0f)
+
 
 Features
 
